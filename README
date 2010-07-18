@@ -34,7 +34,7 @@ FIELDNAME. ActiveRecord will return Money objects instead of Fixnums.
   product.price >> #<Money @cents=10000>
 
 
-Creating a Money can be done from a Fixnum (dollars) or a Float (dollars.cents). To create a money
+Creating a Money object can be done from a Fixnum (dollars) or a Float (dollars.cents). To create a money
 object from just cents, do Money.create_from_cents(100) 
 
 == Feedback
