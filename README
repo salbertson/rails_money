@@ -18,6 +18,10 @@ For example:
 
 All other operations (+, -, *, and Comparable stuff) will work without any surprises or magic. 
 
+== Install
+
+script/plugin install svn://svn.nullcreations.net/plugins/rails_money
+
 == Usage
 
 Create your tables with fields named FIELDNAME_in_cents and you will be able to access them as
